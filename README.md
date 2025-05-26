@@ -67,9 +67,9 @@ OPENAI_API_KEY=sk-...
 ## Структура репозитория
 
 
-freelancer-analytics/
-├── data/
-│   └── freelancer_earnings.csv      # Исходный датасет  
+freelancer-analytics/  
+├── data/  
+│   └── freelancer_earnings.csv        # Исходный датасет  
 ├── src/
 │   ├── main.py                  # CLI-логика и цикл запросов    
 │   ├── loader.py                    # Загрузка и препроцессинг данных       
