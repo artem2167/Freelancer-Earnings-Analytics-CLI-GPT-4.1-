@@ -71,9 +71,12 @@ freelancer-analytics/
 ├── data/
 │   └── freelancer_earnings.csv      # Исходный датасет
 ├── src/
-│   ├── main.py                  # CLI-логика и цикл запросов
-│   ├── loader.py                    # Загрузка и препроцессинг данных
+│   ├── main.py                  # CLI-логика и цикл запросов  
+
+│   ├── loader.py                    # Загрузка и препроцессинг данных  
+
 │   ├── analyzer.py                  # Функции агрегированной аналитики
+
 │   ├── prompts.py                   # Шаблоны для классификации и ответов LLM
 │   ├── llm_client.py                # Обёртка над OpenAI API (новая версия)
 │   └── config.py                    # Пути и настройки (API_KEY, DATA_PATH)
