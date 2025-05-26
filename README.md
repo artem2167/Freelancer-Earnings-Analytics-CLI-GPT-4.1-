@@ -67,11 +67,11 @@ OPENAI_API_KEY=sk-...
 ## Структура репозитория
 
 
-freelancer-analytics/  
-├── data/  
-│   └── freelancer_earnings.csv        # Исходный датасет  
-├── src/
-│   ├── main.py                  # CLI-логика и цикл запросов    
+freelancer-analytics/    
+├── data/    
+│   └── freelancer_earnings.csv        # Исходный датасет    
+├── src/  
+│   ├── main.py                      # CLI-логика и цикл запросов      
 │   ├── loader.py                    # Загрузка и препроцессинг данных       
 │   ├── analyzer.py                  # Функции агрегированной аналитики  
 │   ├── prompts.py                   # Шаблоны для классификации и ответов LLM  
@@ -79,7 +79,7 @@ freelancer-analytics/
 │   └── config.py                    # Пути и настройки (API_KEY, DATA_PATH)  
 ├── .env                             # Ваш OpenAI APIKEY  
 ├── requirements.txt                 # Python-зависимости       
-└── README.md                        # Этот файл
+└── README.md                        # Этот файл  
 
 
 ## Использование
