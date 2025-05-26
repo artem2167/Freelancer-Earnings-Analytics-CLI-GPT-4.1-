@@ -1,8 +1,8 @@
 import os
 import pandas as pd
 
-from loader     import load_data, preprocess
-from analyzer   import (
+from .loader     import load_data, preprocess
+from .analyzer   import (
     compare_payment_methods,
     distribution_by_region,
     expert_below_100_projects,
@@ -11,8 +11,8 @@ from analyzer   import (
     job_duration_correlation,
     salary_by_experience
 )
-from llm_client import ask_chatgpt
-from prompts    import CLASSIFIER, TEMPLATES
+from .llm_client import ask_chatgpt
+from .prompts    import CLASSIFIER, TEMPLATES
 
 # Словарь «action → функция»
 VALID_ACTIONS = {
